@@ -174,9 +174,11 @@ span{
 }
 .card-container{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
-.card1{
+.card{
+    margin: 8px;
     border: 2.5px solid ;
     border-radius: 10px;
     width: 50rem;
@@ -184,32 +186,36 @@ span{
     padding: 15px;
   
 }
-.card1 img{
+.card img{
     width: 100%;
    
 }
-.card1 h2{
+.card h2{
     text-align: center;
     margin: 8px; 
 }
-.card1 p{
+.card p{
     font-size: 1.2rem;
     
 }
-.card1 .button {
+.card .button {
     
     background-color: #04AA6D; /* Green */
   border: none;
-  border-radius: 10px;
+  border-radius: 13px;
   color: white;
   padding: 12px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin-right: auto;
+  margin: 2px;
+  font-size: 1.2rem;
+  
   
 }
-.card1 .button-wrapper{
+.card .button-wrapper{
+    margin-top: 20px;
     text-align: right;
 }
 .button i{
@@ -217,6 +223,14 @@ span{
     position: relative;
     top: 3px;
     
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
   
